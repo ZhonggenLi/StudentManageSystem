@@ -21,7 +21,7 @@ namespace StudentMag
 
         private void btnLogon_Click(object sender, EventArgs e)
         {
-            MySqlConnection connection = new MySqlConnection("Database=student;Data Source=127.0.0.1;User Id = root; Password = li20010309; pooling = false; CharSet = utf8; port = 3306");
+            MySqlConnection connection = new MySqlConnection("Database=student;Data Source=127.0.0.1;User Id = root; Password = li; pooling = false; CharSet = utf8; port = 3306");
             if(tbName.Text==""||tbPassword.Text==""||tbPassword2.Text==""||tbPhone.Text=="")
             {
                 MessageBox.Show("各项不能为空！", "提示", MessageBoxButtons.OK);
