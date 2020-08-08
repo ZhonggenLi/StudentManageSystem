@@ -17,7 +17,7 @@ namespace StudentMag
         MySqlDataAdapter adapter;
         DataSet myds;
         MySqlCommandBuilder cb; //用于自动生成针对单个表更新的SQL语句
-        public static string conn = "Database=student;Data Source=127.0.0.1;User Id = root; Password = li20010309; pooling = false; CharSet = utf8; port = 3306";
+        public static string conn = "Database=student;Data Source=127.0.0.1;User Id = root; Password = li; pooling = false; CharSet = utf8; port = 3306";
         public StuBasQue()
         {
             InitializeComponent();
